@@ -1,0 +1,2378 @@
+{
+  "barawa": {
+    "slug": "barawa",
+    "rank": 150.0,
+    "form": 0.6,
+    "gs": 0.4,
+    "gc": 5.0,
+    "win_rate": 0.3
+  },
+  "turkey": {
+    "slug": "turkey",
+    "rank": 42.0,
+    "form": 1.8,
+    "gs": 1.8,
+    "gc": 1.2,
+    "win_rate": 0.7
+  },
+  "kernow": {
+    "slug": "kernow",
+    "rank": 150.0,
+    "form": 3.0,
+    "gs": 3.5,
+    "gc": 0.5,
+    "win_rate": 1.0
+  },
+  "morocco": {
+    "slug": "morocco",
+    "rank": 14.0,
+    "form": 2.0,
+    "gs": 1.8,
+    "gc": 1.0,
+    "win_rate": 0.6
+  },
+  "lesotho": {
+    "slug": "lesotho",
+    "rank": 153.0,
+    "form": 1.0,
+    "gs": 0.6,
+    "gc": 0.8,
+    "win_rate": 0.2
+  },
+  "azerbaijan": {
+    "slug": "azerbaijan",
+    "rank": 113.0,
+    "form": 1.4,
+    "gs": 2.0,
+    "gc": 1.6,
+    "win_rate": 0.2
+  },
+  "martinique": {
+    "slug": "martinique",
+    "rank": 150.0,
+    "form": 0.4,
+    "gs": 0.4,
+    "gc": 1.2,
+    "win_rate": 0.1
+  },
+  "guinea": {
+    "slug": "guinea",
+    "rank": 82.0,
+    "form": 1.0,
+    "gs": 1.0,
+    "gc": 1.0,
+    "win_rate": 0.3
+  },
+  "malawi": {
+    "slug": "malawi",
+    "rank": 133.0,
+    "form": 1.0,
+    "gs": 0.4,
+    "gc": 0.6,
+    "win_rate": 0.3
+  },
+  "guinea-bissau": {
+    "slug": "guinea-bissau",
+    "rank": 115.0,
+    "form": 0.8,
+    "gs": 0.6,
+    "gc": 1.6,
+    "win_rate": 0.1
+  },
+  "egypt": {
+    "slug": "egypt",
+    "rank": 31.0,
+    "form": 1.2,
+    "gs": 1.6,
+    "gc": 1.4,
+    "win_rate": 0.3
+  },
+  "hmong": {
+    "slug": "hmong",
+    "rank": 150.0,
+    "form": 1.0,
+    "gs": 2.0,
+    "gc": 3.3333333333333335,
+    "win_rate": 0.3333333333333333
+  },
+  "falkland-islands": {
+    "slug": "falkland-islands",
+    "rank": 150.0,
+    "form": 0.2,
+    "gs": 0.6,
+    "gc": 3.2,
+    "win_rate": 0.0
+  },
+  "sint-maarten": {
+    "slug": "sint-maarten",
+    "rank": 150.0,
+    "form": 2.2,
+    "gs": 1.4,
+    "gc": 0.8,
+    "win_rate": 0.5
+  },
+  "k\u00e1rp\u00e1talja": {
+    "slug": "k\u00e1rp\u00e1talja",
+    "rank": 150.0,
+    "form": 2.6,
+    "gs": 2.8,
+    "gc": 0.8,
+    "win_rate": 0.5
+  },
+  "northern-ireland": {
+    "slug": "northern-ireland",
+    "rank": 73.0,
+    "form": 1.4,
+    "gs": 0.8,
+    "gc": 1.2,
+    "win_rate": 0.4
+  },
+  "malaysia": {
+    "slug": "malaysia",
+    "rank": 132.0,
+    "form": 3.0,
+    "gs": 2.4,
+    "gc": 0.4,
+    "win_rate": 0.7
+  },
+  "shetland": {
+    "slug": "shetland",
+    "rank": 150.0,
+    "form": 1.6,
+    "gs": 2.6,
+    "gc": 1.4,
+    "win_rate": 0.3
+  },
+  "french-guiana": {
+    "slug": "french-guiana",
+    "rank": 150.0,
+    "form": 0.4,
+    "gs": 1.4,
+    "gc": 2.0,
+    "win_rate": 0.3
+  },
+  "lebanon": {
+    "slug": "lebanon",
+    "rank": 114.0,
+    "form": 2.0,
+    "gs": 2.0,
+    "gc": 0.4,
+    "win_rate": 0.5
+  },
+  "bangladesh": {
+    "slug": "bangladesh",
+    "rank": 186.0,
+    "form": 1.6,
+    "gs": 1.2,
+    "gc": 1.4,
+    "win_rate": 0.3
+  },
+  "honduras": {
+    "slug": "honduras",
+    "rank": 77.0,
+    "form": 1.0,
+    "gs": 1.0,
+    "gc": 1.2,
+    "win_rate": 0.2
+  },
+  "north-macedonia": {
+    "slug": "north-macedonia",
+    "rank": 72.0,
+    "form": 0.4,
+    "gs": 0.2,
+    "gc": 3.0,
+    "win_rate": 0.1
+  },
+  "canada": {
+    "slug": "canada",
+    "rank": 38.0,
+    "form": 1.4,
+    "gs": 1.8,
+    "gc": 1.2,
+    "win_rate": 0.4
+  },
+  "ukraine": {
+    "slug": "ukraine",
+    "rank": 24.0,
+    "form": 1.8,
+    "gs": 1.4,
+    "gc": 1.0,
+    "win_rate": 0.5
+  },
+  "romania": {
+    "slug": "romania",
+    "rank": 45.0,
+    "form": 1.4,
+    "gs": 2.0,
+    "gc": 1.2,
+    "win_rate": 0.4
+  },
+  "hungary": {
+    "slug": "hungary",
+    "rank": 32.0,
+    "form": 2.0,
+    "gs": 1.6,
+    "gc": 1.0,
+    "win_rate": 0.5
+  },
+  "menorca": {
+    "slug": "menorca",
+    "rank": 150.0,
+    "form": 0.6,
+    "gs": 1.2,
+    "gc": 1.6,
+    "win_rate": 0.4
+  },
+  "s\u00e1pmi": {
+    "slug": "s\u00e1pmi",
+    "rank": 150.0,
+    "form": 0.6,
+    "gs": 0.8,
+    "gc": 2.6,
+    "win_rate": 0.3
+  },
+  "yorkshire": {
+    "slug": "yorkshire",
+    "rank": 150.0,
+    "form": 2.4,
+    "gs": 4.0,
+    "gc": 2.0,
+    "win_rate": 0.7142857142857143
+  },
+  "united-arab-emirates": {
+    "slug": "united-arab-emirates",
+    "rank": 69.0,
+    "form": 1.0,
+    "gs": 1.2,
+    "gc": 1.6,
+    "win_rate": 0.3
+  },
+  "eritrea": {
+    "slug": "eritrea",
+    "rank": 195.0,
+    "form": 0.0,
+    "gs": 0.5,
+    "gc": 2.25,
+    "win_rate": 0.0
+  },
+  "yoruba-nation": {
+    "slug": "yoruba-nation",
+    "rank": 150.0,
+    "form": 0.5,
+    "gs": 0.5,
+    "gc": 1.0,
+    "win_rate": 0.0
+  },
+  "somaliland": {
+    "slug": "somaliland",
+    "rank": 150.0,
+    "form": 1.2,
+    "gs": 2.4,
+    "gc": 3.6,
+    "win_rate": 0.4
+  },
+  "laos": {
+    "slug": "laos",
+    "rank": 187.0,
+    "form": 0.6,
+    "gs": 0.6,
+    "gc": 3.2,
+    "win_rate": 0.1
+  },
+  "philippines": {
+    "slug": "philippines",
+    "rank": 148.0,
+    "form": 3.0,
+    "gs": 3.8,
+    "gc": 0.8,
+    "win_rate": 0.8
+  },
+  "matabeleland": {
+    "slug": "matabeleland",
+    "rank": 150.0,
+    "form": 1.6,
+    "gs": 0.6,
+    "gc": 0.4,
+    "win_rate": 0.375
+  },
+  "biafra": {
+    "slug": "biafra",
+    "rank": 150.0,
+    "form": 2.0,
+    "gs": 0.6666666666666666,
+    "gc": 0.3333333333333333,
+    "win_rate": 0.6666666666666666
+  },
+  "tibet": {
+    "slug": "tibet",
+    "rank": 150.0,
+    "form": 0.2,
+    "gs": 2.4,
+    "gc": 4.2,
+    "win_rate": 0.0
+  },
+  "curacao": {
+    "slug": "curacao",
+    "rank": 84.0,
+    "form": 0.3333333333333333,
+    "gs": 0.3333333333333333,
+    "gc": 3.0,
+    "win_rate": 0.0
+  },
+  "guadeloupe": {
+    "slug": "guadeloupe",
+    "rank": 150.0,
+    "form": 1.2,
+    "gs": 1.4,
+    "gc": 2.0,
+    "win_rate": 0.5
+  },
+  "andorra": {
+    "slug": "andorra",
+    "rank": 169.0,
+    "form": 0.8,
+    "gs": 0.4,
+    "gc": 1.2,
+    "win_rate": 0.1
+  },
+  "luhansk-pr": {
+    "slug": "luhansk-pr",
+    "rank": 150.0,
+    "form": 1.4,
+    "gs": 1.8,
+    "gc": 2.2,
+    "win_rate": 0.3333333333333333
+  },
+  "romani-people": {
+    "slug": "romani-people",
+    "rank": 150.0,
+    "form": 0.6,
+    "gs": 1.6,
+    "gc": 2.8,
+    "win_rate": 0.2
+  },
+  "ghana": {
+    "slug": "ghana",
+    "rank": 70.0,
+    "form": 1.0,
+    "gs": 0.6,
+    "gc": 0.8,
+    "win_rate": 0.1
+  },
+  "tahiti": {
+    "slug": "tahiti",
+    "rank": 158.0,
+    "form": 1.8,
+    "gs": 1.4,
+    "gc": 1.4,
+    "win_rate": 0.5
+  },
+  "sweden": {
+    "slug": "sweden",
+    "rank": 28.0,
+    "form": 1.0,
+    "gs": 1.8,
+    "gc": 2.4,
+    "win_rate": 0.3
+  },
+  "usa": {
+    "slug": "usa",
+    "rank": 18.0,
+    "form": 1.8,
+    "gs": 2.2,
+    "gc": 1.6,
+    "win_rate": 0.6
+  },
+  "czech-republic": {
+    "slug": "czech-republic",
+    "rank": 32.0,
+    "form": 1.4,
+    "gs": 1.8,
+    "gc": 1.6,
+    "win_rate": 0.4
+  },
+  "scotland": {
+    "slug": "scotland",
+    "rank": 52.0,
+    "form": 1.8,
+    "gs": 1.8,
+    "gc": 1.0,
+    "win_rate": 0.5
+  },
+  "palestine": {
+    "slug": "palestine",
+    "rank": 98.0,
+    "form": 0.8,
+    "gs": 0.6,
+    "gc": 0.8,
+    "win_rate": 0.1
+  },
+  "togo": {
+    "slug": "togo",
+    "rank": 119.0,
+    "form": 1.8,
+    "gs": 1.8,
+    "gc": 0.8,
+    "win_rate": 0.3
+  },
+  "nicaragua": {
+    "slug": "nicaragua",
+    "rank": 131.0,
+    "form": 0.8,
+    "gs": 0.6,
+    "gc": 1.8,
+    "win_rate": 0.1
+  },
+  "madagascar": {
+    "slug": "madagascar",
+    "rank": 108.0,
+    "form": 1.4,
+    "gs": 1.8,
+    "gc": 2.2,
+    "win_rate": 0.5
+  },
+  "guam": {
+    "slug": "guam",
+    "rank": 204.0,
+    "form": 0.6,
+    "gs": 1.6,
+    "gc": 4.0,
+    "win_rate": 0.2
+  },
+  "cape-verde": {
+    "slug": "cape-verde",
+    "rank": 150.0,
+    "form": 0.6,
+    "gs": 0.8,
+    "gc": 1.6,
+    "win_rate": 0.1
+  },
+  "iraqi-kurdistan": {
+    "slug": "iraqi-kurdistan",
+    "rank": 150.0,
+    "form": 1.8,
+    "gs": 1.8,
+    "gc": 0.6,
+    "win_rate": 0.4
+  },
+  "indonesia": {
+    "slug": "indonesia",
+    "rank": 129.0,
+    "form": 1.8,
+    "gs": 1.6,
+    "gc": 0.4,
+    "win_rate": 0.5
+  },
+  "mauritius": {
+    "slug": "mauritius",
+    "rank": 178.0,
+    "form": 0.4,
+    "gs": 0.8,
+    "gc": 2.0,
+    "win_rate": 0.1
+  },
+  "uruguay": {
+    "slug": "uruguay",
+    "rank": 11.0,
+    "form": 0.8,
+    "gs": 0.8,
+    "gc": 1.0,
+    "win_rate": 0.2
+  },
+  "cayman-islands": {
+    "slug": "cayman-islands",
+    "rank": 195.0,
+    "form": 1.4,
+    "gs": 1.6,
+    "gc": 1.8,
+    "win_rate": 0.2
+  },
+  "sudan": {
+    "slug": "sudan",
+    "rank": 120.0,
+    "form": 0.6,
+    "gs": 0.6,
+    "gc": 2.2,
+    "win_rate": 0.2
+  },
+  "basque-country": {
+    "slug": "basque-country",
+    "rank": 150.0,
+    "form": 2.2,
+    "gs": 2.0,
+    "gc": 0.8,
+    "win_rate": 0.625
+  },
+  "ry\u016bky\u016b": {
+    "slug": "ry\u016bky\u016b",
+    "rank": 150.0,
+    "form": 0.0,
+    "gs": 0.0,
+    "gc": 9.0,
+    "win_rate": 0.0
+  },
+  "senegal": {
+    "slug": "senegal",
+    "rank": 21.0,
+    "form": 0.8,
+    "gs": 2.0,
+    "gc": 1.8,
+    "win_rate": 0.4
+  },
+  "chile": {
+    "slug": "chile",
+    "rank": 49.0,
+    "form": 1.8,
+    "gs": 2.0,
+    "gc": 2.0,
+    "win_rate": 0.5
+  },
+  "haiti": {
+    "slug": "haiti",
+    "rank": 86.0,
+    "form": 0.6,
+    "gs": 1.4,
+    "gc": 2.0,
+    "win_rate": 0.3
+  },
+  "bonaire": {
+    "slug": "bonaire",
+    "rank": 150.0,
+    "form": 0.6,
+    "gs": 1.2,
+    "gc": 2.2,
+    "win_rate": 0.2
+  },
+  "nepal": {
+    "slug": "nepal",
+    "rank": 176.0,
+    "form": 0.4,
+    "gs": 0.6,
+    "gc": 1.4,
+    "win_rate": 0.2
+  },
+  "uganda": {
+    "slug": "uganda",
+    "rank": 90.0,
+    "form": 0.8,
+    "gs": 1.0,
+    "gc": 2.4,
+    "win_rate": 0.4
+  },
+  "latvia": {
+    "slug": "latvia",
+    "rank": 137.0,
+    "form": 0.4,
+    "gs": 0.4,
+    "gc": 1.8,
+    "win_rate": 0.0
+  },
+  "comoros": {
+    "slug": "comoros",
+    "rank": 118.0,
+    "form": 1.2,
+    "gs": 0.2,
+    "gc": 0.2,
+    "win_rate": 0.1
+  },
+  "saare-county": {
+    "slug": "saare-county",
+    "rank": 150.0,
+    "form": 1.6,
+    "gs": 2.4,
+    "gc": 2.0,
+    "win_rate": 0.25
+  },
+  "zambia": {
+    "slug": "zambia",
+    "rank": 93.0,
+    "form": 0.4,
+    "gs": 0.6,
+    "gc": 2.4,
+    "win_rate": 0.1
+  },
+  "bolivia": {
+    "slug": "bolivia",
+    "rank": 83.0,
+    "form": 1.2,
+    "gs": 1.2,
+    "gc": 2.2,
+    "win_rate": 0.2
+  },
+  "iran": {
+    "slug": "iran",
+    "rank": 150.0,
+    "form": 1.8,
+    "gs": 1.6,
+    "gc": 0.8,
+    "win_rate": 0.4
+  },
+  "d\u00e9lvid\u00e9k": {
+    "slug": "d\u00e9lvid\u00e9k",
+    "rank": 150.0,
+    "form": 1.5,
+    "gs": 2.0,
+    "gc": 1.5,
+    "win_rate": 0.5
+  },
+  "ellan-vannin": {
+    "slug": "ellan-vannin",
+    "rank": 150.0,
+    "form": 2.0,
+    "gs": 1.8,
+    "gc": 1.0,
+    "win_rate": 0.4
+  },
+  "liberia": {
+    "slug": "liberia",
+    "rank": 143.0,
+    "form": 0.8,
+    "gs": 1.0,
+    "gc": 1.4,
+    "win_rate": 0.3
+  },
+  "montserrat": {
+    "slug": "montserrat",
+    "rank": 179.0,
+    "form": 0.6,
+    "gs": 0.4,
+    "gc": 1.4,
+    "win_rate": 0.2
+  },
+  "saint-helena": {
+    "slug": "saint-helena",
+    "rank": 150.0,
+    "form": 0.0,
+    "gs": 0.6,
+    "gc": 3.8,
+    "win_rate": 0.0
+  },
+  "mexico": {
+    "slug": "mexico",
+    "rank": 17.0,
+    "form": 2.4,
+    "gs": 2.0,
+    "gc": 0.6,
+    "win_rate": 0.7
+  },
+  "united-states-virgin-islands": {
+    "slug": "united-states-virgin-islands",
+    "rank": 150.0,
+    "form": 1.4,
+    "gs": 2.2,
+    "gc": 1.6,
+    "win_rate": 0.2
+  },
+  "estonia": {
+    "slug": "estonia",
+    "rank": 122.0,
+    "form": 2.0,
+    "gs": 1.4,
+    "gc": 1.0,
+    "win_rate": 0.3
+  },
+  "switzerland": {
+    "slug": "switzerland",
+    "rank": 15.0,
+    "form": 2.0,
+    "gs": 1.8,
+    "gc": 1.0,
+    "win_rate": 0.4
+  },
+  "monaco": {
+    "slug": "monaco",
+    "rank": 150.0,
+    "form": 1.0,
+    "gs": 0.0,
+    "gc": 0.0,
+    "win_rate": 0.0
+  },
+  "panama": {
+    "slug": "panama",
+    "rank": 37.0,
+    "form": 0.8,
+    "gs": 1.0,
+    "gc": 1.4,
+    "win_rate": 0.2
+  },
+  "ticino": {
+    "slug": "ticino",
+    "rank": 150.0,
+    "form": 0.0,
+    "gs": 1.0,
+    "gc": 6.5,
+    "win_rate": 0.0
+  },
+  "bahrain": {
+    "slug": "bahrain",
+    "rank": 76.0,
+    "form": 1.2,
+    "gs": 1.2,
+    "gc": 2.0,
+    "win_rate": 0.2
+  },
+  "norway": {
+    "slug": "norway",
+    "rank": 47.0,
+    "form": 1.8,
+    "gs": 1.8,
+    "gc": 2.0,
+    "win_rate": 0.5
+  },
+  "northern-mariana-islands": {
+    "slug": "northern-mariana-islands",
+    "rank": 150.0,
+    "form": 1.4,
+    "gs": 1.8,
+    "gc": 2.4,
+    "win_rate": 0.2
+  },
+  "elba-island": {
+    "slug": "elba-island",
+    "rank": 150.0,
+    "form": 3.0,
+    "gs": 4.5,
+    "gc": 1.0,
+    "win_rate": 1.0
+  },
+  "guyana": {
+    "slug": "guyana",
+    "rank": 156.0,
+    "form": 3.0,
+    "gs": 2.8,
+    "gc": 0.6,
+    "win_rate": 0.8
+  },
+  "united-states": {
+    "slug": "united-states",
+    "rank": 150.0,
+    "form": 1.2,
+    "gs": 2.2,
+    "gc": 2.4,
+    "win_rate": 0.5
+  },
+  "gozo": {
+    "slug": "gozo",
+    "rank": 150.0,
+    "form": 1.0,
+    "gs": 0.8,
+    "gc": 1.2,
+    "win_rate": 0.2857142857142857
+  },
+  "libya": {
+    "slug": "libya",
+    "rank": 121.0,
+    "form": 1.4,
+    "gs": 0.6,
+    "gc": 0.4,
+    "win_rate": 0.3
+  },
+  "marshall-islands": {
+    "slug": "marshall-islands",
+    "rank": 150.0,
+    "form": 0.0,
+    "gs": 1.0,
+    "gc": 3.5,
+    "win_rate": 0.0
+  },
+  "bosnia-and-herzegovina": {
+    "slug": "bosnia-and-herzegovina",
+    "rank": 75.0,
+    "form": 1.0,
+    "gs": 1.2,
+    "gc": 1.8,
+    "win_rate": 0.2
+  },
+  "greenland": {
+    "slug": "greenland",
+    "rank": 150.0,
+    "form": 0.8,
+    "gs": 1.0,
+    "gc": 3.6,
+    "win_rate": 0.4
+  },
+  "jordan": {
+    "slug": "jordan",
+    "rank": 68.0,
+    "form": 0.0,
+    "gs": 0.8,
+    "gc": 2.8,
+    "win_rate": 0.2
+  },
+  "kyrgyzstan": {
+    "slug": "kyrgyzstan",
+    "rank": 150.0,
+    "form": 0.6,
+    "gs": 0.6,
+    "gc": 1.4,
+    "win_rate": 0.1
+  },
+  "russia": {
+    "slug": "russia",
+    "rank": 34.0,
+    "form": 2.0,
+    "gs": 1.8,
+    "gc": 0.4,
+    "win_rate": 0.6
+  },
+  "jersey": {
+    "slug": "jersey",
+    "rank": 150.0,
+    "form": 2.0,
+    "gs": 2.8,
+    "gc": 1.8,
+    "win_rate": 0.8
+  },
+  "myanmar": {
+    "slug": "myanmar",
+    "rank": 167.0,
+    "form": 0.8,
+    "gs": 1.8,
+    "gc": 3.0,
+    "win_rate": 0.4
+  },
+  "macau": {
+    "slug": "macau",
+    "rank": 193.0,
+    "form": 0.0,
+    "gs": 0.4,
+    "gc": 3.0,
+    "win_rate": 0.0
+  },
+  "oman": {
+    "slug": "oman",
+    "rank": 78.0,
+    "form": 1.0,
+    "gs": 0.6,
+    "gc": 1.2,
+    "win_rate": 0.2
+  },
+  "netherlands": {
+    "slug": "netherlands",
+    "rank": 7.0,
+    "form": 2.2,
+    "gs": 2.6,
+    "gc": 1.2,
+    "win_rate": 0.5
+  },
+  "germany": {
+    "slug": "germany",
+    "rank": 13.0,
+    "form": 2.0,
+    "gs": 2.6,
+    "gc": 1.2,
+    "win_rate": 0.8
+  },
+  "new-zealand": {
+    "slug": "new-zealand",
+    "rank": 103.0,
+    "form": 0.2,
+    "gs": 0.8,
+    "gc": 3.0,
+    "win_rate": 0.1
+  },
+  "lithuania": {
+    "slug": "lithuania",
+    "rank": 139.0,
+    "form": 0.8,
+    "gs": 0.6,
+    "gc": 1.6,
+    "win_rate": 0.1
+  },
+  "portugal": {
+    "slug": "portugal",
+    "rank": 8.0,
+    "form": 1.6,
+    "gs": 1.6,
+    "gc": 0.6,
+    "win_rate": 0.6
+  },
+  "belgium": {
+    "slug": "belgium",
+    "rank": 6.0,
+    "form": 2.0,
+    "gs": 2.6,
+    "gc": 1.2,
+    "win_rate": 0.6
+  },
+  "australia": {
+    "slug": "australia",
+    "rank": 25.0,
+    "form": 1.2,
+    "gs": 0.8,
+    "gc": 0.8,
+    "win_rate": 0.3
+  },
+  "congo": {
+    "slug": "congo",
+    "rank": 117.0,
+    "form": 0.2,
+    "gs": 0.8,
+    "gc": 1.8,
+    "win_rate": 0.1
+  },
+  "sz\u00e9kely-land": {
+    "slug": "sz\u00e9kely-land",
+    "rank": 150.0,
+    "form": 1.4,
+    "gs": 3.0,
+    "gc": 1.8,
+    "win_rate": 0.3
+  },
+  "county-of-nice": {
+    "slug": "county-of-nice",
+    "rank": 150.0,
+    "form": 2.25,
+    "gs": 2.75,
+    "gc": 2.0,
+    "win_rate": 0.75
+  },
+  "isle-of-man": {
+    "slug": "isle-of-man",
+    "rank": 150.0,
+    "form": 2.4,
+    "gs": 4.6,
+    "gc": 1.4,
+    "win_rate": 0.7
+  },
+  "cook-islands": {
+    "slug": "cook-islands",
+    "rank": 191.0,
+    "form": 0.6,
+    "gs": 0.4,
+    "gc": 2.0,
+    "win_rate": 0.2
+  },
+  "papua-new-guinea": {
+    "slug": "papua-new-guinea",
+    "rank": 168.0,
+    "form": 2.6,
+    "gs": 2.0,
+    "gc": 1.0,
+    "win_rate": 0.5
+  },
+  "united-koreans-in-japan": {
+    "slug": "united-koreans-in-japan",
+    "rank": 150.0,
+    "form": 1.2,
+    "gs": 1.4,
+    "gc": 0.8,
+    "win_rate": 0.2
+  },
+  "mongolia": {
+    "slug": "mongolia",
+    "rank": 188.0,
+    "form": 0.6,
+    "gs": 0.4,
+    "gc": 2.6,
+    "win_rate": 0.2
+  },
+  "faroe-islands": {
+    "slug": "faroe-islands",
+    "rank": 140.0,
+    "form": 1.8,
+    "gs": 1.0,
+    "gc": 1.0,
+    "win_rate": 0.7
+  },
+  "mozambique": {
+    "slug": "mozambique",
+    "rank": 99.0,
+    "form": 0.6,
+    "gs": 0.8,
+    "gc": 2.0,
+    "win_rate": 0.3
+  },
+  "england": {
+    "slug": "england",
+    "rank": 4.0,
+    "form": 2.4,
+    "gs": 2.8,
+    "gc": 2.0,
+    "win_rate": 0.8
+  },
+  "south-ossetia": {
+    "slug": "south-ossetia",
+    "rank": 150.0,
+    "form": 1.6,
+    "gs": 1.6,
+    "gc": 1.2,
+    "win_rate": 0.4
+  },
+  "ecuador": {
+    "slug": "ecuador",
+    "rank": 27.0,
+    "form": 1.4,
+    "gs": 1.0,
+    "gc": 0.8,
+    "win_rate": 0.4
+  },
+  "fr\u00f8ya": {
+    "slug": "fr\u00f8ya",
+    "rank": 150.0,
+    "form": 0.6,
+    "gs": 1.0,
+    "gc": 4.8,
+    "win_rate": 0.1
+  },
+  "r\u00e9union": {
+    "slug": "r\u00e9union",
+    "rank": 150.0,
+    "form": 1.2,
+    "gs": 0.8,
+    "gc": 0.8,
+    "win_rate": 0.5
+  },
+  "angola": {
+    "slug": "angola",
+    "rank": 85.0,
+    "form": 1.2,
+    "gs": 1.2,
+    "gc": 0.8,
+    "win_rate": 0.3
+  },
+  "chagos-islands": {
+    "slug": "chagos-islands",
+    "rank": 150.0,
+    "form": 0.0,
+    "gs": 1.2,
+    "gc": 6.2,
+    "win_rate": 0.1
+  },
+  "india": {
+    "slug": "india",
+    "rank": 126.0,
+    "form": 0.2,
+    "gs": 0.4,
+    "gc": 1.6,
+    "win_rate": 0.0
+  },
+  "gotland": {
+    "slug": "gotland",
+    "rank": 150.0,
+    "form": 1.2,
+    "gs": 3.8,
+    "gc": 1.6,
+    "win_rate": 0.25
+  },
+  "bhutan": {
+    "slug": "bhutan",
+    "rank": 184.0,
+    "form": 0.0,
+    "gs": 0.4,
+    "gc": 3.8,
+    "win_rate": 0.1
+  },
+  "surrey": {
+    "slug": "surrey",
+    "rank": 150.0,
+    "form": 3.0,
+    "gs": 3.0,
+    "gc": 1.0,
+    "win_rate": 1.0
+  },
+  "tanzania": {
+    "slug": "tanzania",
+    "rank": 110.0,
+    "form": 1.0,
+    "gs": 1.6,
+    "gc": 0.8,
+    "win_rate": 0.1
+  },
+  "maule-sur": {
+    "slug": "maule-sur",
+    "rank": 150.0,
+    "form": 3.0,
+    "gs": 1.0,
+    "gc": 0.0,
+    "win_rate": 1.0
+  },
+  "costa-rica": {
+    "slug": "costa-rica",
+    "rank": 50.0,
+    "form": 0.4,
+    "gs": 0.6,
+    "gc": 2.6,
+    "win_rate": 0.1
+  },
+  "namibia": {
+    "slug": "namibia",
+    "rank": 105.0,
+    "form": 0.2,
+    "gs": 0.0,
+    "gc": 2.0,
+    "win_rate": 0.2
+  },
+  "syria": {
+    "slug": "syria",
+    "rank": 92.0,
+    "form": 1.0,
+    "gs": 0.6,
+    "gc": 1.2,
+    "win_rate": 0.5
+  },
+  "iraq": {
+    "slug": "iraq",
+    "rank": 55.0,
+    "form": 0.2,
+    "gs": 0.4,
+    "gc": 3.0,
+    "win_rate": 0.3
+  },
+  "timor-leste": {
+    "slug": "timor-leste",
+    "rank": 196.0,
+    "form": 0.6,
+    "gs": 0.6,
+    "gc": 2.6,
+    "win_rate": 0.1
+  },
+  "barbados": {
+    "slug": "barbados",
+    "rank": 175.0,
+    "form": 0.6,
+    "gs": 1.4,
+    "gc": 2.6,
+    "win_rate": 0.1
+  },
+  "ethiopia": {
+    "slug": "ethiopia",
+    "rank": 145.0,
+    "form": 1.4,
+    "gs": 0.8,
+    "gc": 1.2,
+    "win_rate": 0.4
+  },
+  "western-isles": {
+    "slug": "western-isles",
+    "rank": 150.0,
+    "form": 1.4,
+    "gs": 1.4,
+    "gc": 1.2,
+    "win_rate": 0.3
+  },
+  "trinidad-and-tobago": {
+    "slug": "trinidad-and-tobago",
+    "rank": 101.0,
+    "form": 0.2,
+    "gs": 0.6,
+    "gc": 3.4,
+    "win_rate": 0.1
+  },
+  "hong-kong": {
+    "slug": "hong-kong",
+    "rank": 146.0,
+    "form": 1.0,
+    "gs": 1.0,
+    "gc": 1.2,
+    "win_rate": 0.4
+  },
+  "panjab": {
+    "slug": "panjab",
+    "rank": 150.0,
+    "form": 1.4,
+    "gs": 3.6,
+    "gc": 2.0,
+    "win_rate": 0.4
+  },
+  "kosovo": {
+    "slug": "kosovo",
+    "rank": 104.0,
+    "form": 1.4,
+    "gs": 1.8,
+    "gc": 1.4,
+    "win_rate": 0.5
+  },
+  "georgia": {
+    "slug": "georgia",
+    "rank": 66.0,
+    "form": 1.6,
+    "gs": 1.6,
+    "gc": 1.0,
+    "win_rate": 0.3
+  },
+  "parishes-of-jersey": {
+    "slug": "parishes-of-jersey",
+    "rank": 150.0,
+    "form": 2.0,
+    "gs": 3.6666666666666665,
+    "gc": 1.3333333333333333,
+    "win_rate": 0.6666666666666666
+  },
+  "serbia": {
+    "slug": "serbia",
+    "rank": 35.0,
+    "form": 1.2,
+    "gs": 1.0,
+    "gc": 2.6,
+    "win_rate": 0.4
+  },
+  "zanzibar": {
+    "slug": "zanzibar",
+    "rank": 150.0,
+    "form": 2.0,
+    "gs": 1.2,
+    "gc": 0.8,
+    "win_rate": 0.6
+  },
+  "tamil-eelam": {
+    "slug": "tamil-eelam",
+    "rank": 150.0,
+    "form": 3.0,
+    "gs": 3.4,
+    "gc": 0.6,
+    "win_rate": 0.8
+  },
+  "el-salvador": {
+    "slug": "el-salvador",
+    "rank": 80.0,
+    "form": 1.0,
+    "gs": 0.6,
+    "gc": 1.2,
+    "win_rate": 0.2
+  },
+  "brazil": {
+    "slug": "brazil",
+    "rank": 5.0,
+    "form": 2.0,
+    "gs": 2.0,
+    "gc": 0.8,
+    "win_rate": 0.6
+  },
+  "felvid\u00e9k": {
+    "slug": "felvid\u00e9k",
+    "rank": 150.0,
+    "form": 1.8,
+    "gs": 1.0,
+    "gc": 0.8,
+    "win_rate": 0.4
+  },
+  "ynys-m\u00f4n": {
+    "slug": "ynys-m\u00f4n",
+    "rank": 150.0,
+    "form": 2.4,
+    "gs": 2.2,
+    "gc": 1.4,
+    "win_rate": 0.9
+  },
+  "denmark": {
+    "slug": "denmark",
+    "rank": 20.0,
+    "form": 1.6,
+    "gs": 2.0,
+    "gc": 1.4,
+    "win_rate": 0.5
+  },
+  "burundi": {
+    "slug": "burundi",
+    "rank": 136.0,
+    "form": 0.0,
+    "gs": 0.0,
+    "gc": 2.2,
+    "win_rate": 0.2
+  },
+  "tuvalu": {
+    "slug": "tuvalu",
+    "rank": 150.0,
+    "form": 1.2,
+    "gs": 1.6,
+    "gc": 4.2,
+    "win_rate": 0.2
+  },
+  "grenada": {
+    "slug": "grenada",
+    "rank": 173.0,
+    "form": 0.6,
+    "gs": 0.4,
+    "gc": 2.6,
+    "win_rate": 0.5
+  },
+  "dominican-republic": {
+    "slug": "dominican-republic",
+    "rank": 146.0,
+    "form": 1.2,
+    "gs": 1.4,
+    "gc": 1.4,
+    "win_rate": 0.1
+  },
+  "cyprus": {
+    "slug": "cyprus",
+    "rank": 123.0,
+    "form": 1.4,
+    "gs": 1.6,
+    "gc": 1.6,
+    "win_rate": 0.3
+  },
+  "vietnam": {
+    "slug": "vietnam",
+    "rank": 116.0,
+    "form": 2.4,
+    "gs": 1.8,
+    "gc": 1.0,
+    "win_rate": 0.9
+  },
+  "eswatini": {
+    "slug": "eswatini",
+    "rank": 159.0,
+    "form": 0.4,
+    "gs": 1.0,
+    "gc": 2.6,
+    "win_rate": 0.0
+  },
+  "malta": {
+    "slug": "malta",
+    "rank": 171.0,
+    "form": 1.2,
+    "gs": 1.4,
+    "gc": 1.8,
+    "win_rate": 0.3
+  },
+  "liechtenstein": {
+    "slug": "liechtenstein",
+    "rank": 203.0,
+    "form": 0.6,
+    "gs": 0.4,
+    "gc": 3.0,
+    "win_rate": 0.1
+  },
+  "samoa": {
+    "slug": "samoa",
+    "rank": 185.0,
+    "form": 1.2,
+    "gs": 1.0,
+    "gc": 3.2,
+    "win_rate": 0.4
+  },
+  "orkney": {
+    "slug": "orkney",
+    "rank": 150.0,
+    "form": 1.8,
+    "gs": 2.0,
+    "gc": 1.6,
+    "win_rate": 0.5
+  },
+  "luxembourg": {
+    "slug": "luxembourg",
+    "rank": 87.0,
+    "form": 0.6,
+    "gs": 0.2,
+    "gc": 1.2,
+    "win_rate": 0.1
+  },
+  "donetsk-pr": {
+    "slug": "donetsk-pr",
+    "rank": 150.0,
+    "form": 1.6,
+    "gs": 1.6,
+    "gc": 1.2,
+    "win_rate": 0.3333333333333333
+  },
+  "taiwan": {
+    "slug": "taiwan",
+    "rank": 150.0,
+    "form": 0.0,
+    "gs": 0.6,
+    "gc": 4.0,
+    "win_rate": 0.2
+  },
+  "cuba": {
+    "slug": "cuba",
+    "rank": 165.0,
+    "form": 1.6,
+    "gs": 1.6,
+    "gc": 1.0,
+    "win_rate": 0.3
+  },
+  "burkina-faso": {
+    "slug": "burkina-faso",
+    "rank": 63.0,
+    "form": 1.0,
+    "gs": 1.6,
+    "gc": 1.8,
+    "win_rate": 0.5
+  },
+  "thailand": {
+    "slug": "thailand",
+    "rank": 100.0,
+    "form": 2.2,
+    "gs": 3.0,
+    "gc": 1.0,
+    "win_rate": 0.6
+  },
+  "mayotte": {
+    "slug": "mayotte",
+    "rank": 150.0,
+    "form": 1.6,
+    "gs": 1.2,
+    "gc": 0.6,
+    "win_rate": 0.5
+  },
+  "dr-congo": {
+    "slug": "dr-congo",
+    "rank": 150.0,
+    "form": 0.8,
+    "gs": 1.2,
+    "gc": 1.4,
+    "win_rate": 0.4
+  },
+  "s\u00e3o-tom\u00e9-and-pr\u00edncipe": {
+    "slug": "s\u00e3o-tom\u00e9-and-pr\u00edncipe",
+    "rank": 190.0,
+    "form": 0.6,
+    "gs": 0.8,
+    "gc": 2.8,
+    "win_rate": 0.1
+  },
+  "western-armenia": {
+    "slug": "western-armenia",
+    "rank": 150.0,
+    "form": 1.0,
+    "gs": 1.6,
+    "gc": 1.0,
+    "win_rate": 0.4
+  },
+  "gabon": {
+    "slug": "gabon",
+    "rank": 84.0,
+    "form": 0.2,
+    "gs": 1.4,
+    "gc": 2.4,
+    "win_rate": 0.3
+  },
+  "solomon-islands": {
+    "slug": "solomon-islands",
+    "rank": 144.0,
+    "form": 0.0,
+    "gs": 1.2,
+    "gc": 4.0,
+    "win_rate": 0.2
+  },
+  "ivory-coast": {
+    "slug": "ivory-coast",
+    "rank": 150.0,
+    "form": 1.8,
+    "gs": 1.4,
+    "gc": 1.0,
+    "win_rate": 0.7
+  },
+  "guernsey": {
+    "slug": "guernsey",
+    "rank": 150.0,
+    "form": 1.8,
+    "gs": 1.4,
+    "gc": 0.8,
+    "win_rate": 0.6
+  },
+  "saint-lucia": {
+    "slug": "saint-lucia",
+    "rank": 150.0,
+    "form": 0.6,
+    "gs": 0.8,
+    "gc": 3.4,
+    "win_rate": 0.3
+  },
+  "south-korea": {
+    "slug": "south-korea",
+    "rank": 150.0,
+    "form": 1.8,
+    "gs": 1.6,
+    "gc": 0.6,
+    "win_rate": 0.6
+  },
+  "poland": {
+    "slug": "poland",
+    "rank": 30.0,
+    "form": 1.4,
+    "gs": 1.8,
+    "gc": 2.0,
+    "win_rate": 0.5
+  },
+  "gibraltar": {
+    "slug": "gibraltar",
+    "rank": 198.0,
+    "form": 1.8,
+    "gs": 2.6,
+    "gc": 2.0,
+    "win_rate": 0.3
+  },
+  "turkmenistan": {
+    "slug": "turkmenistan",
+    "rank": 142.0,
+    "form": 2.4,
+    "gs": 2.0,
+    "gc": 1.0,
+    "win_rate": 0.5
+  },
+  "cameroon": {
+    "slug": "cameroon",
+    "rank": 53.0,
+    "form": 1.8,
+    "gs": 1.2,
+    "gc": 1.0,
+    "win_rate": 0.5
+  },
+  "china": {
+    "slug": "china",
+    "rank": 150.0,
+    "form": 1.6,
+    "gs": 1.2,
+    "gc": 1.0,
+    "win_rate": 0.3
+  },
+  "dominica": {
+    "slug": "dominica",
+    "rank": 181.0,
+    "form": 0.2,
+    "gs": 0.6,
+    "gc": 2.4,
+    "win_rate": 0.1
+  },
+  "aruba": {
+    "slug": "aruba",
+    "rank": 194.0,
+    "form": 2.0,
+    "gs": 2.2,
+    "gc": 1.2,
+    "win_rate": 0.4
+  },
+  "wales": {
+    "slug": "wales",
+    "rank": 29.0,
+    "form": 1.2,
+    "gs": 2.2,
+    "gc": 1.2,
+    "win_rate": 0.3
+  },
+  "argentina": {
+    "slug": "argentina",
+    "rank": 1.0,
+    "form": 2.4,
+    "gs": 2.2,
+    "gc": 1.4,
+    "win_rate": 0.9
+  },
+  "north-korea": {
+    "slug": "north-korea",
+    "rank": 150.0,
+    "form": 0.4,
+    "gs": 1.0,
+    "gc": 2.6,
+    "win_rate": 0.0
+  },
+  "bermuda": {
+    "slug": "bermuda",
+    "rank": 170.0,
+    "form": 0.8,
+    "gs": 1.0,
+    "gc": 3.0,
+    "win_rate": 0.3
+  },
+  "jamaica": {
+    "slug": "jamaica",
+    "rank": 61.0,
+    "form": 1.2,
+    "gs": 0.6,
+    "gc": 1.0,
+    "win_rate": 0.4
+  },
+  "israel": {
+    "slug": "israel",
+    "rank": 79.0,
+    "form": 1.6,
+    "gs": 1.4,
+    "gc": 1.2,
+    "win_rate": 0.5
+  },
+  "belarus": {
+    "slug": "belarus",
+    "rank": 97.0,
+    "form": 2.2,
+    "gs": 1.8,
+    "gc": 0.8,
+    "win_rate": 0.3
+  },
+  "alderney": {
+    "slug": "alderney",
+    "rank": 150.0,
+    "form": 0.6,
+    "gs": 1.2,
+    "gc": 3.8,
+    "win_rate": 0.2
+  },
+  "moldova": {
+    "slug": "moldova",
+    "rank": 149.0,
+    "form": 0.4,
+    "gs": 1.2,
+    "gc": 2.4,
+    "win_rate": 0.0
+  },
+  "saint-martin": {
+    "slug": "saint-martin",
+    "rank": 150.0,
+    "form": 1.8,
+    "gs": 1.8,
+    "gc": 1.0,
+    "win_rate": 0.5
+  },
+  "spain": {
+    "slug": "spain",
+    "rank": 3.0,
+    "form": 3.0,
+    "gs": 1.8,
+    "gc": 0.2,
+    "win_rate": 0.8
+  },
+  "greece": {
+    "slug": "greece",
+    "rank": 48.0,
+    "form": 0.6,
+    "gs": 0.4,
+    "gc": 0.8,
+    "win_rate": 0.2
+  },
+  "niger": {
+    "slug": "niger",
+    "rank": 127.0,
+    "form": 0.6,
+    "gs": 0.4,
+    "gc": 0.8,
+    "win_rate": 0.3
+  },
+  "suriname": {
+    "slug": "suriname",
+    "rank": 138.0,
+    "form": 1.0,
+    "gs": 1.6,
+    "gc": 1.4,
+    "win_rate": 0.2
+  },
+  "slovenia": {
+    "slug": "slovenia",
+    "rank": 51.0,
+    "form": 1.0,
+    "gs": 1.2,
+    "gc": 1.4,
+    "win_rate": 0.1
+  },
+  "sri-lanka": {
+    "slug": "sri-lanka",
+    "rank": 200.0,
+    "form": 0.8,
+    "gs": 0.6,
+    "gc": 2.0,
+    "win_rate": 0.4
+  },
+  "saint-barth\u00e9lemy": {
+    "slug": "saint-barth\u00e9lemy",
+    "rank": 150.0,
+    "form": 1.4,
+    "gs": 3.0,
+    "gc": 2.4,
+    "win_rate": 0.5
+  },
+  "cambodia": {
+    "slug": "cambodia",
+    "rank": 180.0,
+    "form": 1.4,
+    "gs": 1.8,
+    "gc": 1.0,
+    "win_rate": 0.3
+  },
+  "equatorial-guinea": {
+    "slug": "equatorial-guinea",
+    "rank": 94.0,
+    "form": 0.8,
+    "gs": 0.6,
+    "gc": 1.2,
+    "win_rate": 0.1
+  },
+  "tunisia": {
+    "slug": "tunisia",
+    "rank": 36.0,
+    "form": 0.0,
+    "gs": 0.4,
+    "gc": 3.6,
+    "win_rate": 0.1
+  },
+  "kabylia": {
+    "slug": "kabylia",
+    "rank": 150.0,
+    "form": 1.0,
+    "gs": 1.6,
+    "gc": 1.4,
+    "win_rate": 0.16666666666666666
+  },
+  "armenia": {
+    "slug": "armenia",
+    "rank": 96.0,
+    "form": 0.4,
+    "gs": 0.8,
+    "gc": 2.8,
+    "win_rate": 0.1
+  },
+  "saint-kitts-and-nevis": {
+    "slug": "saint-kitts-and-nevis",
+    "rank": 150.0,
+    "form": 1.4,
+    "gs": 1.6,
+    "gc": 2.6,
+    "win_rate": 0.4
+  },
+  "abkhazia": {
+    "slug": "abkhazia",
+    "rank": 150.0,
+    "form": 1.8,
+    "gs": 1.2,
+    "gc": 0.6,
+    "win_rate": 0.5
+  },
+  "austria": {
+    "slug": "austria",
+    "rank": 22.0,
+    "form": 1.4,
+    "gs": 1.4,
+    "gc": 1.8,
+    "win_rate": 0.5
+  },
+  "mauritania": {
+    "slug": "mauritania",
+    "rank": 112.0,
+    "form": 0.8,
+    "gs": 0.6,
+    "gc": 1.2,
+    "win_rate": 0.2
+  },
+  "tajikistan": {
+    "slug": "tajikistan",
+    "rank": 103.0,
+    "form": 2.6,
+    "gs": 2.8,
+    "gc": 0.4,
+    "win_rate": 0.7
+  },
+  "cura\u00e7ao": {
+    "slug": "cura\u00e7ao",
+    "rank": 88.0,
+    "form": 0.8,
+    "gs": 1.2,
+    "gc": 2.2,
+    "win_rate": 0.4
+  },
+  "anguilla": {
+    "slug": "anguilla",
+    "rank": 209.0,
+    "form": 1.2,
+    "gs": 1.0,
+    "gc": 2.6,
+    "win_rate": 0.2
+  },
+  "uzbekistan": {
+    "slug": "uzbekistan",
+    "rank": 60.0,
+    "form": 0.0,
+    "gs": 0.6,
+    "gc": 3.0,
+    "win_rate": 0.2
+  },
+  "chad": {
+    "slug": "chad",
+    "rank": 177.0,
+    "form": 0.2,
+    "gs": 1.2,
+    "gc": 2.4,
+    "win_rate": 0.0
+  },
+  "somalia": {
+    "slug": "somalia",
+    "rank": 202.0,
+    "form": 0.8,
+    "gs": 0.4,
+    "gc": 1.4,
+    "win_rate": 0.1
+  },
+  "puerto-rico": {
+    "slug": "puerto-rico",
+    "rank": 154.0,
+    "form": 1.8,
+    "gs": 1.6,
+    "gc": 2.0,
+    "win_rate": 0.3
+  },
+  "guatemala": {
+    "slug": "guatemala",
+    "rank": 107.0,
+    "form": 0.6,
+    "gs": 1.2,
+    "gc": 3.8,
+    "win_rate": 0.2
+  },
+  "chameria": {
+    "slug": "chameria",
+    "rank": 150.0,
+    "form": 1.6,
+    "gs": 1.8,
+    "gc": 0.8,
+    "win_rate": 0.42857142857142855
+  },
+  "west-papua": {
+    "slug": "west-papua",
+    "rank": 150.0,
+    "form": 0.5,
+    "gs": 1.5,
+    "gc": 4.5,
+    "win_rate": 0.0
+  },
+  "japan": {
+    "slug": "japan",
+    "rank": 16.0,
+    "form": 1.6,
+    "gs": 1.8,
+    "gc": 1.0,
+    "win_rate": 0.7
+  },
+  "montenegro": {
+    "slug": "montenegro",
+    "rank": 74.0,
+    "form": 1.4,
+    "gs": 1.8,
+    "gc": 1.6,
+    "win_rate": 0.4
+  },
+  "albania": {
+    "slug": "albania",
+    "rank": 67.0,
+    "form": 0.0,
+    "gs": 0.2,
+    "gc": 1.4,
+    "win_rate": 0.5
+  },
+  "american-samoa": {
+    "slug": "american-samoa",
+    "rank": 189.0,
+    "form": 0.0,
+    "gs": 0.8,
+    "gc": 4.6,
+    "win_rate": 0.0
+  },
+  "two-sicilies": {
+    "slug": "two-sicilies",
+    "rank": 150.0,
+    "form": 0.0,
+    "gs": 0.5,
+    "gc": 5.0,
+    "win_rate": 0.0
+  },
+  "slovakia": {
+    "slug": "slovakia",
+    "rank": 42.0,
+    "form": 1.4,
+    "gs": 1.8,
+    "gc": 2.6,
+    "win_rate": 0.6
+  },
+  "northern-cyprus": {
+    "slug": "northern-cyprus",
+    "rank": 150.0,
+    "form": 2.2,
+    "gs": 3.2,
+    "gc": 1.0,
+    "win_rate": 0.5
+  },
+  "central-african-republic": {
+    "slug": "central-african-republic",
+    "rank": 128.0,
+    "form": 0.8,
+    "gs": 0.8,
+    "gc": 2.6,
+    "win_rate": 0.2
+  },
+  "franconia": {
+    "slug": "franconia",
+    "rank": 150.0,
+    "form": 1.5,
+    "gs": 2.0,
+    "gc": 4.5,
+    "win_rate": 0.5
+  },
+  "djibouti": {
+    "slug": "djibouti",
+    "rank": 192.0,
+    "form": 0.0,
+    "gs": 0.2,
+    "gc": 2.8,
+    "win_rate": 0.0
+  },
+  "belize": {
+    "slug": "belize",
+    "rank": 182.0,
+    "form": 1.2,
+    "gs": 2.0,
+    "gc": 2.0,
+    "win_rate": 0.3
+  },
+  "zimbabwe": {
+    "slug": "zimbabwe",
+    "rank": 124.0,
+    "form": 1.4,
+    "gs": 1.4,
+    "gc": 1.2,
+    "win_rate": 0.3
+  },
+  "saint-vincent-and-the-grenadines": {
+    "slug": "saint-vincent-and-the-grenadines",
+    "rank": 150.0,
+    "form": 1.8,
+    "gs": 1.6,
+    "gc": 1.6,
+    "win_rate": 0.6
+  },
+  "kazakhstan": {
+    "slug": "kazakhstan",
+    "rank": 109.0,
+    "form": 1.4,
+    "gs": 1.0,
+    "gc": 1.0,
+    "win_rate": 0.3
+  },
+  "padania": {
+    "slug": "padania",
+    "rank": 150.0,
+    "form": 1.4,
+    "gs": 2.0,
+    "gc": 1.0,
+    "win_rate": 0.5
+  },
+  "south-sudan": {
+    "slug": "south-sudan",
+    "rank": 172.0,
+    "form": 0.4,
+    "gs": 0.2,
+    "gc": 2.2,
+    "win_rate": 0.1
+  },
+  "south-africa": {
+    "slug": "south-africa",
+    "rank": 59.0,
+    "form": 1.4,
+    "gs": 0.6,
+    "gc": 0.8,
+    "win_rate": 0.3
+  },
+  "peru": {
+    "slug": "peru",
+    "rank": 43.0,
+    "form": 0.8,
+    "gs": 1.2,
+    "gc": 2.0,
+    "win_rate": 0.1
+  },
+  "aymara": {
+    "slug": "aymara",
+    "rank": 150.0,
+    "form": 0.0,
+    "gs": 0.5,
+    "gc": 2.0,
+    "win_rate": 0.0
+  },
+  "italy": {
+    "slug": "italy",
+    "rank": 10.0,
+    "form": 2.0,
+    "gs": 1.2,
+    "gc": 1.0,
+    "win_rate": 0.8
+  },
+  "mali": {
+    "slug": "mali",
+    "rank": 54.0,
+    "form": 0.6,
+    "gs": 0.2,
+    "gc": 0.8,
+    "win_rate": 0.3
+  },
+  "benin": {
+    "slug": "benin",
+    "rank": 89.0,
+    "form": 1.4,
+    "gs": 1.0,
+    "gc": 1.8,
+    "win_rate": 0.3
+  },
+  "isle-of-wight": {
+    "slug": "isle-of-wight",
+    "rank": 150.0,
+    "form": 1.8,
+    "gs": 1.6,
+    "gc": 1.2,
+    "win_rate": 0.625
+  },
+  "vanuatu": {
+    "slug": "vanuatu",
+    "rank": 162.0,
+    "form": 2.0,
+    "gs": 1.8,
+    "gc": 1.2,
+    "win_rate": 0.4
+  },
+  "corsica": {
+    "slug": "corsica",
+    "rank": 150.0,
+    "form": 1.6666666666666667,
+    "gs": 1.0,
+    "gc": 0.6666666666666666,
+    "win_rate": 0.3333333333333333
+  },
+  "british-virgin-islands": {
+    "slug": "british-virgin-islands",
+    "rank": 208.0,
+    "form": 2.0,
+    "gs": 2.6,
+    "gc": 1.0,
+    "win_rate": 0.4
+  },
+  "croatia": {
+    "slug": "croatia",
+    "rank": 12.0,
+    "form": 1.8,
+    "gs": 1.6,
+    "gc": 1.6,
+    "win_rate": 0.6
+  },
+  "maldives": {
+    "slug": "maldives",
+    "rank": 163.0,
+    "form": 0.0,
+    "gs": 0.0,
+    "gc": 2.2,
+    "win_rate": 0.1
+  },
+  "sierra-leone": {
+    "slug": "sierra-leone",
+    "rank": 125.0,
+    "form": 1.4,
+    "gs": 1.0,
+    "gc": 1.2,
+    "win_rate": 0.4
+  },
+  "\u00e5land-islands": {
+    "slug": "\u00e5land-islands",
+    "rank": 150.0,
+    "form": 0.8,
+    "gs": 0.8,
+    "gc": 1.8,
+    "win_rate": 0.2
+  },
+  "botswana": {
+    "slug": "botswana",
+    "rank": 147.0,
+    "form": 0.6,
+    "gs": 0.2,
+    "gc": 2.0,
+    "win_rate": 0.2
+  },
+  "east-turkestan": {
+    "slug": "east-turkestan",
+    "rank": 150.0,
+    "form": 1.2,
+    "gs": 3.0,
+    "gc": 3.2,
+    "win_rate": 0.4
+  },
+  "iceland": {
+    "slug": "iceland",
+    "rank": 71.0,
+    "form": 0.4,
+    "gs": 0.6,
+    "gc": 2.2,
+    "win_rate": 0.1
+  },
+  "new-caledonia": {
+    "slug": "new-caledonia",
+    "rank": 160.0,
+    "form": 1.4,
+    "gs": 1.2,
+    "gc": 1.0,
+    "win_rate": 0.6
+  },
+  "algeria": {
+    "slug": "algeria",
+    "rank": 41.0,
+    "form": 1.4,
+    "gs": 1.8,
+    "gc": 1.8,
+    "win_rate": 0.5
+  },
+  "qatar": {
+    "slug": "qatar",
+    "rank": 44.0,
+    "form": 0.4,
+    "gs": 0.4,
+    "gc": 2.2,
+    "win_rate": 0.1
+  },
+  "finland": {
+    "slug": "finland",
+    "rank": 64.0,
+    "form": 1.4,
+    "gs": 1.6,
+    "gc": 1.4,
+    "win_rate": 0.3
+  },
+  "republic-of-ireland": {
+    "slug": "republic-of-ireland",
+    "rank": 62.0,
+    "form": 1.8,
+    "gs": 1.8,
+    "gc": 0.6,
+    "win_rate": 0.5
+  },
+  "cascadia": {
+    "slug": "cascadia",
+    "rank": 150.0,
+    "form": 2.0,
+    "gs": 4.0,
+    "gc": 1.8,
+    "win_rate": 0.5714285714285714
+  },
+  "saudi-arabia": {
+    "slug": "saudi-arabia",
+    "rank": 56.0,
+    "form": 1.2,
+    "gs": 0.8,
+    "gc": 1.0,
+    "win_rate": 0.2
+  },
+  "antigua-and-barbuda": {
+    "slug": "antigua-and-barbuda",
+    "rank": 151.0,
+    "form": 0.4,
+    "gs": 0.2,
+    "gc": 1.4,
+    "win_rate": 0.0
+  },
+  "afghanistan": {
+    "slug": "afghanistan",
+    "rank": 152.0,
+    "form": 1.0,
+    "gs": 0.4,
+    "gc": 1.0,
+    "win_rate": 0.1
+  },
+  "bulgaria": {
+    "slug": "bulgaria",
+    "rank": 81.0,
+    "form": 2.0,
+    "gs": 3.0,
+    "gc": 1.2,
+    "win_rate": 0.3
+  },
+  "kenya": {
+    "slug": "kenya",
+    "rank": 102.0,
+    "form": 1.0,
+    "gs": 1.0,
+    "gc": 2.6,
+    "win_rate": 0.4
+  },
+  "tonga": {
+    "slug": "tonga",
+    "rank": 199.0,
+    "form": 1.2,
+    "gs": 2.2,
+    "gc": 2.0,
+    "win_rate": 0.2
+  },
+  "kuwait": {
+    "slug": "kuwait",
+    "rank": 134.0,
+    "form": 1.0,
+    "gs": 1.4,
+    "gc": 1.8,
+    "win_rate": 0.2
+  },
+  "vatican-city": {
+    "slug": "vatican-city",
+    "rank": 150.0,
+    "form": 0.6666666666666666,
+    "gs": 1.3333333333333333,
+    "gc": 2.0,
+    "win_rate": 0.0
+  },
+  "catalonia": {
+    "slug": "catalonia",
+    "rank": 150.0,
+    "form": 1.3333333333333333,
+    "gs": 1.6666666666666667,
+    "gc": 1.6666666666666667,
+    "win_rate": 0.3333333333333333
+  },
+  "galicia": {
+    "slug": "galicia",
+    "rank": 150.0,
+    "form": 0.5,
+    "gs": 0.5,
+    "gc": 1.5,
+    "win_rate": 0.0
+  },
+  "artsakh": {
+    "slug": "artsakh",
+    "rank": 150.0,
+    "form": 2.0,
+    "gs": 1.8,
+    "gc": 1.6,
+    "win_rate": 0.6
+  },
+  "hitra": {
+    "slug": "hitra",
+    "rank": 150.0,
+    "form": 1.2,
+    "gs": 2.8,
+    "gc": 2.6,
+    "win_rate": 0.4
+  },
+  "pakistan": {
+    "slug": "pakistan",
+    "rank": 197.0,
+    "form": 2.0,
+    "gs": 1.6,
+    "gc": 1.2,
+    "win_rate": 0.3
+  },
+  "paraguay": {
+    "slug": "paraguay",
+    "rank": 57.0,
+    "form": 1.0,
+    "gs": 0.6,
+    "gc": 1.2,
+    "win_rate": 0.4
+  },
+  "yemen": {
+    "slug": "yemen",
+    "rank": 155.0,
+    "form": 2.2,
+    "gs": 4.4,
+    "gc": 1.0,
+    "win_rate": 0.5
+  },
+  "bahamas": {
+    "slug": "bahamas",
+    "rank": 205.0,
+    "form": 0.0,
+    "gs": 0.4,
+    "gc": 4.0,
+    "win_rate": 0.1
+  },
+  "gambia": {
+    "slug": "gambia",
+    "rank": 124.0,
+    "form": 0.8,
+    "gs": 2.8,
+    "gc": 2.4,
+    "win_rate": 0.4
+  },
+  "singapore": {
+    "slug": "singapore",
+    "rank": 161.0,
+    "form": 1.8,
+    "gs": 2.2,
+    "gc": 1.4,
+    "win_rate": 0.5
+  },
+  "france": {
+    "slug": "france",
+    "rank": 2.0,
+    "form": 1.8,
+    "gs": 2.0,
+    "gc": 1.6,
+    "win_rate": 0.7
+  },
+  "san-marino": {
+    "slug": "san-marino",
+    "rank": 210.0,
+    "form": 0.2,
+    "gs": 0.8,
+    "gc": 2.6,
+    "win_rate": 0.0
+  },
+  "mapuche": {
+    "slug": "mapuche",
+    "rank": 150.0,
+    "form": 1.5,
+    "gs": 1.5,
+    "gc": 1.0,
+    "win_rate": 0.5
+  },
+  "fiji": {
+    "slug": "fiji",
+    "rank": 150.0,
+    "form": 0.0,
+    "gs": 0.2,
+    "gc": 3.4,
+    "win_rate": 0.1
+  },
+  "venezuela": {
+    "slug": "venezuela",
+    "rank": 40.0,
+    "form": 1.4,
+    "gs": 1.4,
+    "gc": 1.0,
+    "win_rate": 0.3
+  },
+  "raetia": {
+    "slug": "raetia",
+    "rank": 150.0,
+    "form": 1.6,
+    "gs": 3.4,
+    "gc": 2.2,
+    "win_rate": 0.2
+  },
+  "rwanda": {
+    "slug": "rwanda",
+    "rank": 130.0,
+    "form": 1.8,
+    "gs": 1.4,
+    "gc": 0.8,
+    "win_rate": 0.3
+  },
+  "colombia": {
+    "slug": "colombia",
+    "rank": 9.0,
+    "form": 2.2,
+    "gs": 1.0,
+    "gc": 0.2,
+    "win_rate": 0.6
+  },
+  "brunei": {
+    "slug": "brunei",
+    "rank": 150.0,
+    "form": 0.6,
+    "gs": 0.4,
+    "gc": 3.2,
+    "win_rate": 0.2
+  },
+  "nigeria": {
+    "slug": "nigeria",
+    "rank": 39.0,
+    "form": 1.6,
+    "gs": 2.0,
+    "gc": 1.2,
+    "win_rate": 0.5
+  },
+  "seychelles": {
+    "slug": "seychelles",
+    "rank": 201.0,
+    "form": 0.0,
+    "gs": 0.0,
+    "gc": 5.6,
+    "win_rate": 0.0
+  },
+  "turks-and-caicos-islands": {
+    "slug": "turks-and-caicos-islands",
+    "rank": 206.0,
+    "form": 1.4,
+    "gs": 1.2,
+    "gc": 2.2,
+    "win_rate": 0.2
+  }
+}

@@ -1,0 +1,239 @@
+// frontend/src/components/SVGBracket.jsx
+import React, { useMemo } from 'react';
+
+export default function SVGBracket({ bracketData = [], winnerFreq = [], onSelectMatch }) {
+  const width = 720;
+  const height = 480;
+
+  // Group matches from the bracket data list
+  const grouped = useMemo(() => {
+    const rounds = { r32: [], r16: [], qf: [], sf: [], final: null };
+    
+    bracketData.forEach(m => {
+      const r = m.round.toLowerCase();
+      if (r === 'round of 32') rounds.r32.push(m);
+      else if (r === 'round of 16') rounds.r16.push(m);
+      else if (r.includes('quarter')) rounds.qf.push(m);
+      else if (r.includes('semi')) rounds.sf.push(m);
+      else if (r.includes('final')) rounds.final = m;
+    });
+
+    return rounds;
+  }, [bracketData]);
+
+  // Compute symmetrical positions
+  const positions = useMemo(() => {
+    const pos = {};
+    const midY = height / 2;
+
+    const distY = (count, start, end) => {
+      const step = (end - start) / (count - 1 || 1);
+      return Array.from({ length: count }, (_, i) => start + i * step);
+    };
+
+    const leftR32_Y = distY(8, 20, height - 30);
+    const rightR32_Y = distY(8, 20, height - 30);
+
+    // Round of 32
+    leftR32_Y.forEach((y, i) => {
+      pos[`l-r32-${i}`] = { x: 30, y, match: grouped.r32[i] };
+    });
+    rightR32_Y.forEach((y, i) => {
+      pos[`r-r32-${i}`] = { x: width - 110, y, match: grouped.r32[i + 8] };
+    });
+
+    // Round of 16
+    for (let i = 0; i < 4; i++) {
+      const ly = (pos[`l-r32-${2*i}`].y + pos[`l-r32-${2*i+1}`].y) / 2;
+      pos[`l-r16-${i}`] = { x: 120, y: ly, match: grouped.r16[i] };
+
+      const ry = (pos[`r-r32-${2*i}`].y + pos[`r-r32-${2*i+1}`].y) / 2;
+      pos[`r-r16-${i}`] = { x: width - 200, y: ry, match: grouped.r16[i + 4] };
+    }
+
+    // Quarter Finals
+    for (let i = 0; i < 2; i++) {
+      const ly = (pos[`l-r16-${2*i}`].y + pos[`l-r16-${2*i+1}`].y) / 2;
+      pos[`l-qf-${i}`] = { x: 210, y: ly, match: grouped.qf[i] };
+
+      const ry = (pos[`r-r16-${2*i}`].y + pos[`r-r16-${2*i+1}`].y) / 2;
+      pos[`r-qf-${i}`] = { x: width - 290, y: ry, match: grouped.qf[i + 2] };
+    }
+
+    // Semi Finals
+    const l_sf_y = (pos[`l-qf-0`].y + pos[`l-qf-1`].y) / 2;
+    pos[`l-sf-0`] = { x: 290, y: l_sf_y, match: grouped.sf[0] };
+
+    const r_sf_y = (pos[`r-qf-0`].y + pos[`r-qf-1`].y) / 2;
+    pos[`r-sf-0`] = { x: width - 370, y: r_sf_y, match: grouped.sf[1] };
+
+    // Final
+    pos[`final`] = { x: width / 2 - 40, y: midY + 30, match: grouped.final };
+
+    return pos;
+  }, [grouped, width, height]);
+
+  // Generate Bezier connection paths
+  const connections = useMemo(() => {
+    const paths = [];
+
+    const addCurve = (srcId, dstId, side = 'left') => {
+      const src = positions[srcId];
+      const dst = positions[dstId];
+      if (!src || !dst) return;
+      
+      const x1 = side === 'left' ? src.x + 80 : src.x;
+      const y1 = src.y + 12;
+      const x2 = side === 'left' ? dst.x : dst.x + 80;
+      const y2 = dst.y + 12;
+
+      const controlX = (x1 + x2) / 2;
+      const d = `M ${x1} ${y1} C ${controlX} ${y1}, ${controlX} ${y2}, ${x2} ${y2}`;
+      
+      const isActive = src.match?.winner && (src.match.winner === dst.match?.team1 || src.match.winner === dst.match?.team2);
+
+      paths.push({ id: `${srcId}-${dstId}`, d, isActive });
+    };
+
+    // Connections Left Side
+    for (let i = 0; i < 8; i++) addCurve(`l-r32-${i}`, `l-r16-${Math.floor(i/2)}`, 'left');
+    for (let i = 0; i < 4; i++) addCurve(`l-r16-${i}`, `l-qf-${Math.floor(i/2)}`, 'left');
+    for (let i = 0; i < 2; i++) addCurve(`l-qf-${i}`, `l-sf-0`, 'left');
+    addCurve(`l-sf-0`, `final`, 'left');
+
+    // Connections Right Side
+    for (let i = 0; i < 8; i++) addCurve(`r-r32-${i}`, `r-r16-${Math.floor(i/2)}`, 'right');
+    for (let i = 0; i < 4; i++) addCurve(`r-r16-${i}`, `r-qf-${Math.floor(i/2)}`, 'right');
+    for (let i = 0; i < 2; i++) addCurve(`r-qf-${i}`, `r-sf-0`, 'right');
+    addCurve(`r-sf-0`, `final`, 'right');
+
+    return paths;
+  }, [positions]);
+
+  const renderMatchCard = (id, info) => {
+    if (!info || !info.match) return null;
+    const m = info.match;
+    const isFinished = m.status && m.status !== 'NS';
+
+    return (
+      <g 
+        key={id} 
+        transform={`translate(${info.x}, ${info.y})`}
+        className="bracket-node"
+        style={{ cursor: 'pointer' }}
+        onClick={() => onSelectMatch && onSelectMatch(m.team1, m.team2)}
+      >
+        <rect
+          width="80"
+          height="24"
+          rx="3"
+          fill="rgba(7, 10, 16, 0.95)"
+          stroke={isFinished ? 'var(--cyan)' : 'rgba(255,255,255,0.06)'}
+          strokeWidth="1"
+        />
+        <text x="5" y="10" fill="#fff" fontSize="6px" fontFamily="var(--font-sans)" fontWeight="700">
+          {m.team1_name ? m.team1_name.toUpperCase().slice(0, 9) : 'TBD'}
+        </text>
+        <text x="5" y="18" fill="#fff" fontSize="6px" fontFamily="var(--font-sans)" fontWeight="700">
+          {m.team2_name ? m.team2_name.toUpperCase().slice(0, 9) : 'TBD'}
+        </text>
+        {isFinished ? (
+          <text x="75" y="15" fill="var(--cyan)" fontSize="7px" fontFamily="var(--font-display)" fontWeight="800" textAnchor="end">
+            {m.score || 'FT'}
+          </text>
+        ) : (
+          m.prediction && (
+            <text x="75" y="15" fill="var(--cyan)" fontSize="6px" fontFamily="var(--font-display)" textAnchor="end">
+              {(m.prediction.home_win * 100).toFixed(0)}%
+            </text>
+          )
+        )}
+      </g>
+    );
+  };
+
+  const champion = grouped.final?.winner_name;
+
+  // Filter top 10 teams for champion probabilities
+  const topWinners = useMemo(() => {
+    return winnerFreq.slice(0, 10);
+  }, [winnerFreq]);
+
+  return (
+    <div className="glass-card">
+      <h3 className="card-title">🏆 SIMULATION PLAYGROUND & TOURNAMENT BRACKET</h3>
+      <p style={{ color: 'var(--text-secondary)', fontSize: '0.8rem', marginBottom: '1.25rem' }}>
+        Run simulations to see how neural updates shift the entire World Cup knockout tree and champion win percentages.
+      </p>
+
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 300px', gap: '1.5rem', alignItems: 'start' }}>
+        
+        {/* Knockout Bracket columns */}
+        <div style={{ overflowX: 'auto', background: 'rgba(5,7,12,0.6)', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.03)', padding: '0.5rem' }}>
+          <svg viewBox={`0 0 ${width} ${height}`} style={{ width: '100%', height: 'auto', minWidth: '650px' }}>
+            {/* Symmetrical connected lines */}
+            <g>
+              {connections.map(c => (
+                <path
+                  key={c.id}
+                  d={c.d}
+                  className={`bracket-path ${c.isActive ? 'active' : ''}`}
+                />
+              ))}
+            </g>
+
+            {/* Symmetrical match nodes */}
+            <g>
+              {Object.entries(positions).map(([id, info]) => renderMatchCard(id, info))}
+            </g>
+
+            {/* Champion Display */}
+            {champion && (
+              <g transform={`translate(${width/2 - 40}, 50)`} className="bracket-node">
+                <rect width="80" height="28" rx="4" fill="rgba(245, 166, 35, 0.1)" stroke="var(--gold)" strokeWidth="1.2" />
+                <text x="40" y="10" fill="var(--gold)" fontSize="5px" fontFamily="var(--font-display)" fontWeight="800" textAnchor="middle">
+                  🏆 CHAMPION
+                </text>
+                <text x="40" y="21" fill="#fff" fontSize="6.5px" fontFamily="var(--font-sans)" fontWeight="800" textAnchor="middle">
+                  {champion.toUpperCase()}
+                </text>
+              </g>
+            )}
+          </svg>
+        </div>
+
+        {/* Win Probability sidebar */}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', background: 'rgba(5,7,12,0.6)', border: '1px solid rgba(255,255,255,0.03)', padding: '0.75rem', borderRadius: '8px', height: '100%', minHeight: '380px' }}>
+          <span style={{ fontSize: '0.75rem', fontFamily: 'var(--font-display)', color: 'var(--cyan)' }}>🏆 CHAMPION ODDS (TOP 10)</span>
+          
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', overflowY: 'auto' }}>
+            {topWinners.length > 0 ? (
+              topWinners.map((team, idx) => (
+                <div key={team.slug} style={{ display: 'flex', flexDirection: 'column', gap: '0.15rem' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.7rem' }}>
+                    <span style={{ fontWeight: 700 }}>#{idx + 1} {team.name}</span>
+                    <span style={{ color: 'var(--cyan)', fontFamily: 'var(--font-display)' }}>{(team.win).toFixed(1)}%</span>
+                  </div>
+                  <div className="progress-container" style={{ height: '6px' }}>
+                    <div 
+                      className="progress-bar-fill" 
+                      style={{ 
+                        width: `${Math.min(100, team.win * 3.5)}%`, 
+                        background: 'linear-gradient(90deg, var(--cyan), #0072ff)' 
+                      }} 
+                    />
+                  </div>
+                </div>
+              ))
+            ) : (
+              <div style={{ textAlign: 'center', color: 'var(--text-secondary)', fontSize: '0.75rem', marginTop: '3rem' }}>
+                Awaiting tournament simulation run...
+              </div>
+            )}
+          </div>
+        </div>
+
+      </div>
+    </div>
+  );
+}
