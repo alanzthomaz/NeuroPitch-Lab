@@ -3,7 +3,6 @@
 
 Welcome to the **FIFA World Cup 2026 Prediction Platform** — a high-performance web dashboard combining a rigorous statistical football engine (Elo + Dixon-Coles Poisson + Monte Carlo) with a Deep Learning Artificial Neural Network (ANN) classifier into an ensemble predictor.
 
-This project is a hybrid: it ports and extends the statistical engine from the MIT-licensed [world-cup-2026-prediction-model](https://github.com/Hicruben/world-cup-2026-prediction-model) repository into Python, and layers a PyTorch neural network to model historical match features (from 2018–2026) alongside the statistical outputs.
 
 ---
 
