@@ -62,13 +62,11 @@ export default function NetworkBuilder({
   onImportModel,
   scalerParams
 }) {
-  const fileInputRef = useRef(null);
   const [openSections, setOpenSections] = useState({
     topology: true,
     hyperparams: true,
     features: false,
-    advanced: false,
-    utilities: false
+    advanced: false
   });
 
   const toggleSection = (sect) => {
@@ -104,57 +102,7 @@ export default function NetworkBuilder({
     }
   };
 
-  // Export current config & state dict to file
-  const handleExportModel = () => {
-    const hasValidScaler = scalerParams && 
-      scalerParams.mean && scalerParams.mean.length === config.features.length &&
-      scalerParams.var && scalerParams.var.length === config.features.length &&
-      scalerParams.scale && scalerParams.scale.length === config.features.length;
 
-    const exportData = {
-      config,
-      // Retrieve scaling parameters from locally saved scaler or backend
-      scaler_mean: hasValidScaler ? scalerParams.mean : Array(config.features.length).fill(0.0), // Baseline mean
-      scaler_var: hasValidScaler ? scalerParams.var : Array(config.features.length).fill(1.0),
-      scaler_scale: hasValidScaler ? scalerParams.scale : Array(config.features.length).fill(1.0),
-      state_dict: {}
-    };
-
-    // Serialize weights/biases from networkState
-    networkState.forEach(layer => {
-      // Rebuild PyTorch state dict keys from the actual Layer name (e.g. "Layer 0" -> "net.0")
-      const key = layer.name.replace('Layer ', 'net.');
-      exportData.state_dict[`${key}.weight`] = layer.weights;
-      exportData.state_dict[`${key}.bias`] = layer.biases;
-    });
-
-    const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `worldcup_ann_${config.activation}_${config.optimizer}.json`;
-    a.click();
-    URL.revokeObjectURL(url);
-  };
-
-  // Import JSON model configuration
-  const handleImportModel = (e) => {
-    const file = e.target.files[0];
-    if (!file) return;
-
-    const reader = new FileReader();
-    reader.onload = async (event) => {
-      try {
-        const data = JSON.parse(event.target.result);
-        if (onImportModel) {
-          await onImportModel(data);
-        }
-      } catch (err) {
-        alert("Failed to parse JSON file: " + err.message);
-      }
-    };
-    reader.readAsText(file);
-  };
 
   return (
     <div className="glass-card" style={{ display: 'flex', flexDirection: 'column', gap: '1rem', flex: 1, padding: '1.25rem' }}>
@@ -442,45 +390,7 @@ export default function NetworkBuilder({
         )}
       </div>
 
-      {/* SECTION 5: Export / Import Utilities */}
-      <div style={{ borderBottom: '1px solid rgba(255,255,255,0.05)', paddingBottom: '0.5rem' }}>
-        <div onClick={() => toggleSection('utilities')} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer' }}>
-          <span style={{ fontSize: '0.8rem', fontFamily: 'var(--font-display)', color: 'var(--cyan)' }}>
-            {openSections.utilities ? '▼' : '▶'} 5. STUDIO WEIGHTS UTILITIES
-          </span>
-          <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>Import/Export</span>
-        </div>
 
-        {openSections.utilities && (
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginTop: '0.75rem', paddingLeft: '0.5rem' }}>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.5rem' }}>
-              <button 
-                className="nav-item" 
-                onClick={handleExportModel}
-                style={{ padding: '0.35rem', fontSize: '0.75rem', border: '1px solid var(--border-glow)', background: 'rgba(0, 242, 254, 0.05)' }}
-              >
-                📥 EXPORT JSON
-              </button>
-              
-              <button 
-                className="nav-item" 
-                onClick={() => fileInputRef.current.click()}
-                style={{ padding: '0.35rem', fontSize: '0.75rem', border: '1px solid var(--border-glow)', background: 'rgba(0, 242, 254, 0.05)' }}
-              >
-                📤 IMPORT JSON
-              </button>
-            </div>
-            
-            <input 
-              type="file" 
-              ref={fileInputRef} 
-              onChange={handleImportModel} 
-              style={{ display: 'none' }} 
-              accept=".json" 
-            />
-          </div>
-        )}
-      </div>
 
       {/* Compile button */}
       <button 
