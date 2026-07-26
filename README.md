@@ -70,22 +70,53 @@ graph TD
 
 ### Running the Platform
 
-You can run both the FastAPI backend and React frontend concurrently using the provided launch script:
+You can start both the FastAPI backend and React frontend concurrently using the provided automated scripts:
 
+#### 🐧 Linux / macOS (Unix)
+Run the shell script:
 ```bash
 chmod +x run_platform.sh
 ./run_platform.sh
 ```
 
-Alternatively, you can run them manually in separate terminal sessions:
+#### 🪟 Windows
+Double-click `run_platform.bat` or run it from your terminal:
+```cmd
+run_platform.bat
+```
+*(This will open two separate command prompt windows running the backend and frontend).*
 
+---
+
+### Manual Startup (Alternative)
+
+If you prefer to run the services manually in separate terminal sessions:
+
+#### 🐧 On Linux / macOS (Unix):
 1. **Start the FastAPI Backend**:
    ```bash
    PYTHONPATH=. uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload
    ```
-
 2. **Start the React Frontend**:
    ```bash
+   cd frontend
+   npm run dev
+   ```
+
+#### 🪟 On Windows:
+1. **Start the FastAPI Backend**:
+   * **In PowerShell**:
+     ```powershell
+     $env:PYTHONPATH="."
+     uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload
+     ```
+   * **In Command Prompt (CMD)**:
+     ```cmd
+     set PYTHONPATH=.
+     uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload
+     ```
+2. **Start the React Frontend**:
+   ```cmd
    cd frontend
    npm run dev
    ```
