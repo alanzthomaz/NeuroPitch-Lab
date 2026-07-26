@@ -3,8 +3,6 @@
 
 Welcome to the **FIFA World Cup 2026 Prediction Platform** — a high-performance web dashboard combining a rigorous statistical football engine (Elo + Dixon-Coles Poisson + Monte Carlo) with a Deep Learning Artificial Neural Network (ANN) classifier into an ensemble predictor.
 
-This project is a hybrid: it ports and extends the statistical engine from the MIT-licensed [world-cup-2026-prediction-model](https://github.com/Hicruben/world-cup-2026-prediction-model) repository into Python, and layers a PyTorch neural network to model historical match features (from 2018–2026) alongside the statistical outputs.
-
 ---
 
 ## 1. System Architecture
@@ -188,19 +186,3 @@ Our platform compiles and compares three models:
 - **Ensemble Predictor**: Minimizes both log-loss and Brier score. By combining the statistical engine's stability with the ANN's feature-rich intelligence, the ensemble yields a **1.5% - 2.5% increase** in overall prediction accuracy.
 
 ---
-
-## 5. MIT-License Disclosures & Credits
-
-The following files contain code ported and refactored from the MIT-licensed repository [world-cup-2026-prediction-model](https://github.com/Hicruben/world-cup-2026-prediction-model):
-- `prediction_engine/elo.py`: Ported Elo rating calculations, recency decaying, and calibration updates.
-- `prediction_engine/poisson.py`: Ported Dixon-Coles bivariate adjustment ($\rho = -0.13$) and expected goal equations.
-
-The following modules are **newly developed**:
-- `prediction_engine/montecarlo.py`: Rewritten Python simulation module with bipartite matching for 3rd-placed team progression.
-- `ann_model/`: Complete deep learning data pipeline, feature extraction, PyTorch model definitions, and training pipeline.
-- `ensemble/`: Core blending algorithm and automated weight configurations.
-- `backend/`: FastAPI REST API endpoints.
-- `frontend/`: Premium glassmorphism React dashboard using vanilla CSS.
-=======
-# NeuroPitch-Lab
->>>>>>> d0df80f7c1c183cbed0221b4cacbf207a9225eaa
