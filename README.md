@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏆 FIFA World Cup 2026 Prediction Platform
 
 Welcome to the **FIFA World Cup 2026 Prediction Platform** — a high-performance web dashboard combining a rigorous statistical football engine (Elo + Dixon-Coles Poisson + Monte Carlo) with a Deep Learning Artificial Neural Network (ANN) classifier into an ensemble predictor.
@@ -200,3 +201,6 @@ The following modules are **newly developed**:
 - `ensemble/`: Core blending algorithm and automated weight configurations.
 - `backend/`: FastAPI REST API endpoints.
 - `frontend/`: Premium glassmorphism React dashboard using vanilla CSS.
+=======
+# NeuroPitch-Lab
+>>>>>>> d0df80f7c1c183cbed0221b4cacbf207a9225eaa
