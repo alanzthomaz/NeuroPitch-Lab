@@ -189,5 +189,3 @@ Our platform compiles and compares three models:
 
 ---
 =======
-# NeuroPitch-Lab
->>>>>>> d0df80f7c1c183cbed0221b4cacbf207a9225eaa
