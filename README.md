@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🏆 FIFA World Cup 2026 Prediction Platform
 
 Welcome to the **FIFA World Cup 2026 Prediction Platform** — a high-performance web dashboard combining a rigorous statistical football engine (Elo + Dixon-Coles Poisson + Monte Carlo) with a Deep Learning Artificial Neural Network (ANN) classifier into an ensemble predictor.
