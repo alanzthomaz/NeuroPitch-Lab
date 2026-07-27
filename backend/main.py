@@ -62,10 +62,10 @@ wc_results_path = os.path.join(base_dir, "prediction_engine", "data", "wc2026-re
 experiments_path = os.path.join(base_dir, "ann_model", "data", "experiments.json")
 
 try:
-    print("Rebuilding dataset at server startup...")
-    from ann_model.dataset import build_dataset
-    build_dataset()
-    print("Dataset compiled successfully on startup.")
+    print("Skipping dataset rebuild at server startup to conserve memory on free tier...")
+    # from ann_model.dataset import build_dataset
+    # build_dataset()
+    # print("Dataset compiled successfully on startup.")
     
     # Reload profiles and ratings in prediction engine
     default_ratings_path = os.path.join(base_dir, "prediction_engine", "data", "elo-calibrated.json")
