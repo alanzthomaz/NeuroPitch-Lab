@@ -1,5 +1,6 @@
 // frontend/src/components/TitleRace.jsx
 import React, { useState, useEffect } from 'react';
+import { API_BASE_URL } from '../config';
 
 export default function TitleRace() {
   const [data, setData] = useState([]);
@@ -13,7 +14,7 @@ export default function TitleRace() {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch(`http://localhost:8000/simulate?num_sims=${numSims}&condition=${condition}`);
+      const response = await fetch(`${API_BASE_URL}/simulate?num_sims=${numSims}&condition=${condition}`);
       if (!response.ok) {
         throw new Error("Failed to run Monte Carlo simulations");
       }

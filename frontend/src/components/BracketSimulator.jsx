@@ -1,5 +1,6 @@
 // frontend/src/components/BracketSimulator.jsx
 import React, { useState, useEffect } from 'react';
+import { API_BASE_URL } from '../config';
 
 export default function BracketSimulator() {
   const [bracket, setBracket] = useState([]);
@@ -11,7 +12,7 @@ export default function BracketSimulator() {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch("http://localhost:8000/bracket");
+      const response = await fetch(`${API_BASE_URL}/bracket`);
       if (!response.ok) {
         throw new Error("Failed to load bracket data");
       }

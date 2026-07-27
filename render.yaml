@@ -1,0 +1,24 @@
+# render.yaml
+services:
+  # Python Backend Service
+  - type: web
+    name: neuropitch-backend
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHONPATH
+        value: .
+
+  # Vite React Frontend Service (Static Site)
+  - type: web
+    name: neuropitch-frontend
+    runtime: static
+    buildCommand: cd frontend && npm install && npm run build
+    publishPath: frontend/dist
+    envVars:
+      - key: VITE_API_BASE_URL
+        fromService:
+          type: web
+          name: neuropitch-backend
+          property: url

@@ -1,5 +1,6 @@
 // frontend/src/components/PredictionHistory.jsx
 import React, { useState, useEffect } from 'react';
+import { API_BASE_URL } from '../config';
 
 export default function PredictionHistory() {
   const [data, setData] = useState(null);
@@ -10,7 +11,7 @@ export default function PredictionHistory() {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch("http://localhost:8000/history");
+      const response = await fetch(`${API_BASE_URL}/history`);
       if (!response.ok) {
         throw new Error("Failed to load prediction history");
       }

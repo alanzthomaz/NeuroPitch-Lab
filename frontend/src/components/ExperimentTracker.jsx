@@ -1,5 +1,6 @@
 // frontend/src/components/ExperimentTracker.jsx
 import React, { useState, useEffect } from 'react';
+import { API_BASE_URL } from '../config';
 
 export default function ExperimentTracker({
   currentConfig,
@@ -14,7 +15,7 @@ export default function ExperimentTracker({
 
   const fetchExperiments = async () => {
     try {
-      const response = await fetch("http://localhost:8000/api/experiments");
+      const response = await fetch(`${API_BASE_URL}/api/experiments`);
       if (response.ok) {
         const data = await response.json();
         setExperiments(data);
@@ -41,7 +42,7 @@ export default function ExperimentTracker({
     };
 
     try {
-      const response = await fetch("http://localhost:8000/api/experiments", {
+      const response = await fetch(`${API_BASE_URL}/api/experiments`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(newExp)
@@ -57,7 +58,7 @@ export default function ExperimentTracker({
 
   const clearLog = async () => {
     try {
-      const response = await fetch("http://localhost:8000/api/experiments", {
+      const response = await fetch(`${API_BASE_URL}/api/experiments`, {
         method: 'DELETE'
       });
       if (response.ok) {

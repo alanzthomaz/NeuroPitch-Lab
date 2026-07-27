@@ -1,5 +1,6 @@
 // frontend/src/App.jsx
 import React, { useState, useEffect } from 'react';
+import { API_BASE_URL } from './config';
 import NetworkBuilder from './components/NetworkBuilder';
 import ANNVisualizer from './components/ANNVisualizer';
 import TrainingLab from './components/TrainingLab';
@@ -65,7 +66,7 @@ export default function App() {
   // Fetch active model config, weights, and activations
   const fetchActiveModel = async () => {
     try {
-      const response = await fetch(`http://localhost:8000/api/model/active?team1=${refMatch.team1}&team2=${refMatch.team2}&home_team=${refMatch.home_team}`);
+      const response = await fetch(`${API_BASE_URL}/api/model/active?team1=${refMatch.team1}&team2=${refMatch.team2}&home_team=${refMatch.home_team}`);
       if (response.ok) {
         const data = await response.json();
         if (data.status === "active") {
@@ -97,7 +98,7 @@ export default function App() {
   // Fetch bracket state
   const fetchBracket = async () => {
     try {
-      const response = await fetch("http://localhost:8000/bracket");
+      const response = await fetch(`${API_BASE_URL}/bracket`);
       if (response.ok) {
         const data = await response.json();
         setBracketData(data);
@@ -110,7 +111,7 @@ export default function App() {
   // Fetch simulation winner odds
   const fetchSimulation = async () => {
     try {
-      const response = await fetch("http://localhost:8000/simulate?num_sims=500&condition=true");
+      const response = await fetch(`${API_BASE_URL}/simulate?num_sims=500&condition=true`);
       if (response.ok) {
         const data = await response.json();
         setWinnerFreq(data.winner_freq || []);
@@ -162,7 +163,7 @@ export default function App() {
       home_team: refMatch.home_team
     });
 
-    const eventSource = new EventSource(`http://localhost:8000/api/train/stream?${params.toString()}`);
+    const eventSource = new EventSource(`${API_BASE_URL}/api/train/stream?${params.toString()}`);
 
     eventSource.onmessage = (event) => {
       const data = JSON.parse(event.data);
@@ -252,7 +253,7 @@ export default function App() {
   // Import model parameter JSON
   const handleImportModel = async (modelData) => {
     try {
-      const response = await fetch("http://localhost:8000/api/model/import", {
+      const response = await fetch(`${API_BASE_URL}/api/model/import`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(modelData)

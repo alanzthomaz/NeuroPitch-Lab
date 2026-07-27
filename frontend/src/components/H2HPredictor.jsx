@@ -1,5 +1,6 @@
 // frontend/src/components/H2HPredictor.jsx
 import React, { useState, useEffect } from 'react';
+import { API_BASE_URL } from '../config';
 
 const TEAMS_LIST = [
   "argentina", "france", "spain", "brazil", "england", "portugal", "netherlands", 
@@ -36,11 +37,11 @@ export default function H2HPredictor() {
       const sW = statWeight / 100.0;
       const aW = (100 - statWeight) / 100.0;
       
-      const predUrl = `http://localhost:8000/predict?team1=${t1}&team2=${t2}&home_team=${homeTeam}&stat_weight=${sW}&ann_weight=${aW}`;
+      const predUrl = `${API_BASE_URL}/predict?team1=${t1}&team2=${t2}&home_team=${homeTeam}&stat_weight=${sW}&ann_weight=${aW}`;
       const [predRes, t1Res, t2Res] = await Promise.all([
         fetch(predUrl).then(r => r.json()),
-        fetch(`http://localhost:8000/team/${t1}`).then(r => r.json()),
-        fetch(`http://localhost:8000/team/${t2}`).then(r => r.json())
+        fetch(`${API_BASE_URL}/team/${t1}`).then(r => r.json()),
+        fetch(`${API_BASE_URL}/team/${t2}`).then(r => r.json())
       ]);
       
       setPrediction(predRes);

@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { API_BASE_URL } from '../config';
 
 const FEATURE_CONFIGS = {
   elo_home: { min: 1000, max: 2500, step: 10, label: "Elo Home", default: 1500 },
@@ -86,7 +87,7 @@ export default function SandboxView({
     if (activeFeatures.length === 0 || isTraining) return;
     setLoading(true);
     try {
-      const response = await fetch(`http://localhost:8000/api/sandbox/predict?target_class=${currentClass}`, {
+      const response = await fetch(`${API_BASE_URL}/api/sandbox/predict?target_class=${currentClass}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
